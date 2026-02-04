@@ -1,20 +1,21 @@
 # Accevate Assignment (React Native + Expo)
 
 This project is a 3-screen mobile app built using **React Native (Expo)** as part of the assignment.
+EAS Build link to install **APK** - `https://expo.dev/accounts/arpit12mish/projects/Accevate_Assignment/builds/b304ed24-68a6-4ad9-b5d9-39cdf2549bc6`
 
 ## Features
 
-✅ **Login Screen**
+1. **Login Screen**
 - Username + Password
 - Calls Login API
 - Stores returned **userId** for OTP step
 
-✅ **OTP Verification Screen**
+2. **OTP Verification Screen**
 - 6-digit OTP input
 - Calls OTP API with **userId + otp**
 - Stores returned **token** securely using Expo SecureStore
 
-✅ **Dashboard Screen**
+3. **Dashboard Screen**
 - Uses token (Bearer) to access dashboard API
 - Renders:
   - Carousel banners
